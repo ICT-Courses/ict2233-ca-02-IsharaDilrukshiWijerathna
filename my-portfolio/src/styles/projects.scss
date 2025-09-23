@@ -1,0 +1,46 @@
+// theme color 
+$primary-color: #007bff;
+$bg-color : #0d0d0d;
+$text-color : #ffffff;
+
+// page styles
+.projects-page{
+    background-color: $bg-color;
+    color: $text-color;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+
+    .projects-title{
+            font-size: 3rem;
+            font-weight: bold;
+            color: $primary-color;
+        }
+
+    // card styles
+
+    .project-card{
+        background-color: #222;
+        border: 2px solid $primary-color;
+        border-radius: 12px;
+        color: $text-color;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover{
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 123, 255, 0.6);
+        }
+
+        .card-title{
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: $primary-color;
+        }
+
+        .card-text{
+            font-size: 1rem;
+            color: #ffffff;
+        }
+    }
+}
