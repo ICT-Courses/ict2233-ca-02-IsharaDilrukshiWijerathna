@@ -20,6 +20,17 @@ export default function Projects() {
                       <p className="card-text"> The first project that I developed. This is a diary application. The name is Day memory. This is developed by using C# programming language.
                         I developed this under .Net framework. My sql workbench have used for database connection.
                       </p>
+
+                      <div className="d-flex justify-content-center">
+                       <a 
+                          href="https://github.com/ICT-Courses/application-development-ca1-IsharaDilrukshiWijerathna" 
+                          className="btn btn-primary" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                        >
+                          View Repository
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -30,6 +41,17 @@ export default function Projects() {
                       <h5 className="card-title"> Footware Marketting Web application Development Project</h5>
                       <p className="card-text"> This is a colloborative project. The name is S&S Footware marketting web site. We developed this by using pure html, java scripts and css. The Database that we used is Firebase. The web site is hosted from vercel. 
                       </p>
+
+                      <div className="d-flex justify-content-center">
+                       <a 
+                          href="https://github.com/Hansi-Umayangani/S-S-Footwear-Promo-Website" 
+                          className="btn btn-primary" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                        >
+                          View Repository
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
