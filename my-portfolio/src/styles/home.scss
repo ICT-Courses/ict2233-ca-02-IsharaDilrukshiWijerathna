@@ -1,0 +1,46 @@
+// theme color 
+$primary-color: #007bff;
+$bg-color : #0d0d0d;
+$text-color : #ffffff;
+
+//home page stylings
+.home-page{
+    background-color: $bg-color;
+    color: $text-color;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+
+//left side
+    .text-section{
+        h3.greeting {
+            color: lighten($primary-color,20%);
+            margin-bottom: 10px;
+        }
+
+        h1.name{
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .highlight{
+            color: $primary-color;
+        }
+
+        h4.role{
+            margin: 15px;
+            font-weight: 300;
+            color: #fff;
+        }
+    }
+
+    //right side
+    .profile-img{
+        max-width: 300px;
+        border-radius: 50%;
+        border: 5px solid $primary-color;
+        box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+    
+    }
+}
