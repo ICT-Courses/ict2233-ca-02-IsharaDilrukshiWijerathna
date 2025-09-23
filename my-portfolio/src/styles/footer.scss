@@ -1,0 +1,19 @@
+$primary-color: #007bff;
+
+.footer {
+  background-color: #0d0d0d;
+  color: #fff;
+
+  .footer-links {
+    .footer-icon {
+      width: 28px;
+      margin-left: 15px;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.2);
+        filter: brightness(1.3);
+      }
+    }
+  }
+}
