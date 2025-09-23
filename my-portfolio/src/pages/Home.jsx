@@ -2,7 +2,7 @@
 import "../styles/home.scss";
 
 //import images
-import profileImg from "../assets/images/Profile.png";
+import profileImg from "../assets/images/ProfilePic.jpg";
 
 // set up home page
 export default function Home() {
