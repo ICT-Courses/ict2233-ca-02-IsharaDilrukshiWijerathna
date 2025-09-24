@@ -51,7 +51,7 @@ export default function Projects() {
                       <p className="card-text"> This is a colloborative project. The name is S&S Footware marketting web site. We developed this by using pure html, java scripts and css. The Database that we used is Firebase. The web site is hosted from vercel. 
                       </p>
 
-                      <div className="d-flex justify-content-center">
+                      <div className="d-flex justify-content-center gap-3">
                        <a 
                           href="https://github.com/Hansi-Umayangani/S-S-Footwear-Promo-Website" 
                           className="btn btn-primary" 
@@ -59,6 +59,15 @@ export default function Projects() {
                           rel="noopener noreferrer"
                         >
                           View Repository
+                        </a>
+
+                        <a 
+                          href="https://ss-footwear-promo-website.vercel.app" 
+                          className="btn btn-primary" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                        >
+                          Web Site
                         </a>
                       </div>
                     </div>
