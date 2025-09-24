@@ -16,9 +16,8 @@ export default function Projects() {
                 <div className="col-md-6">
                   <div className="card project-card">
                     <div className="card-body">
-                      <h5 className="card-title"> Diary application develpoment project</h5>
-                      <p className="card-text"> The first project that I developed. This is a diary application. The name is Day memory. This is developed by using C# programming language.
-                        I developed this under .Net framework. My sql workbench have used for database connection.
+                      <h5 className="card-title"> Coffee menu website marketing web site. </h5>
+                      <p className="card-text">This is a "Vintage Coffee House" web marketing web application. This is developed in react framwork. The programming languages are html, java scripts and css. 
                       </p>
 
                       <div className="d-flex justify-content-center gap-3">
@@ -68,6 +67,28 @@ export default function Projects() {
                           rel="noopener noreferrer"
                         >
                           Web Site
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="col-md-6">
+                  <div className="card project-card">
+                    <div className="card-body">
+                      <h5 className="card-title"> Diary application develpoment project</h5>
+                      <p className="card-text"> The first project that I developed. This is a diary application. The name is Day memory. This is developed by using C# programming language.
+                        I developed this under .Net framework. My sql workbench have used for database connection.
+                      </p>
+
+                      <div className="d-flex justify-content-center gap-3">
+                       <a 
+                          href="https://github.com/ICT-Courses/ict2233-ca-01-IsharaDilrukshiWijerathna" 
+                          className="btn btn-primary" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                        >
+                          View Repository
                         </a>
                       </div>
                     </div>
