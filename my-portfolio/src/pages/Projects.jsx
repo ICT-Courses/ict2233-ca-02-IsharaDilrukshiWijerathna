@@ -21,7 +21,7 @@ export default function Projects() {
                         I developed this under .Net framework. My sql workbench have used for database connection.
                       </p>
 
-                      <div className="d-flex justify-content-center">
+                      <div className="d-flex justify-content-center gap-3">
                        <a 
                           href="https://github.com/ICT-Courses/application-development-ca1-IsharaDilrukshiWijerathna" 
                           className="btn btn-primary" 
@@ -29,6 +29,15 @@ export default function Projects() {
                           rel="noopener noreferrer"
                         >
                           View Repository
+                        </a>
+
+                        <a 
+                          href="https://drive.google.com/file/d/1j4gWa4HmoP56l5ggmFjrNjTRkAqK1N3m/view?usp=drivesdk" 
+                          className="btn btn-primary" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                        >
+                          View Demo vedeo
                         </a>
                       </div>
                     </div>
